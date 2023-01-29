@@ -2,8 +2,14 @@
   color: white;
   padding-bottom: 10px;
   text-decoration: none;
+  transition: opacity 1s linear;
+}
+
+.footer__column-link:hover {
+  opacity: 0.3;
 }
 
 .footer__column-link:last-child {
   padding-bottom: 0px;
 }
+
